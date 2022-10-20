@@ -1,2 +1,26 @@
 # crud collection
-crud in reactjs ,nodejs ,angular ,vuejs , nextjs ,nuxtjs ,core php , codeigniter 3 and 4 ,laravel , gorest api and using with mongodb or extra dotNet
+crud opations with
+reactjs
+angular 
+vuejs
+nextjs
+nuxtjs
+nodejs 
+core php
+codeigniter 3 and 4
+laravel
+dotNot
+using resoureces 
+reactnative
+ionic
+
+html
+css
+javascript/es6
+bootstrap
+gorestapi
+mongodb
+mongoose
+ionic framwork
+
+
