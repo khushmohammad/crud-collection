@@ -1,3 +1,4 @@
+<pre>
 # crud collection
 crud opations with
 reactjs
@@ -10,10 +11,11 @@ core php
 codeigniter 3 and 4
 laravel
 dotNot
-using resoureces 
 reactnative
-ionic
 
+
+
+resources 
 html
 css
 javascript/es6
@@ -22,5 +24,7 @@ gorestapi
 mongodb
 mongoose
 ionic framwork
+
+</pre>
 
 
