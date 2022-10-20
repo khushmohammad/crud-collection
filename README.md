@@ -24,6 +24,17 @@ gorestapi
 mongodb
 mongoose
 ionic framwork
+jwt
+react redux
+lodash
+typescript
+json
+rest api
+postman
+expressjs
+visual studio
+
+
 
 </pre>
 
