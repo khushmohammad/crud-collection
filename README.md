@@ -33,6 +33,12 @@ rest api
 postman
 expressjs
 visual studio
+Jquery 
+Ajax
+
+extra activity
+DSA
+Design Thinking
 
 
 
