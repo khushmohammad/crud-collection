@@ -1,7 +1,8 @@
 <pre>
 # crud collection
 crud opations with
-reactjs
+
+reactjs 
 angular 
 vuejs
 nextjs
@@ -15,7 +16,7 @@ reactnative
 
 
 
-resources 
+using resources 
 html
 css
 javascript/es6
