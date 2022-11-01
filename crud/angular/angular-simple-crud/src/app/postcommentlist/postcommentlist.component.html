@@ -1,0 +1,71 @@
+<h3>Post Comments </h3>
+
+<button type="button" class="btn btn-primary" (click)="showCommentForm()">Add Comment</button>
+
+<div class="" *ngIf="showCommentFormToggle">
+
+    <div class="container mt-4">
+
+        <span class="text-success my-3" *ngIf="showSuccess">
+            Your comment submitted
+            <!-- {{SubmitedData |json}} -->
+        </span>
+        <form action="" [formGroup]="CommentForm">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Your Name</label>
+                <select formControlName="name" name="userId" class="form-select" aria-label="Default select example">
+                    <option *ngFor="let item of userList" [ngValue]="item.username">{{item.name}}</option>
+                </select>
+                <span class="text-danger"
+                    *ngIf="(CommentFormControl.name.touched || submitted) && CommentFormControl.name.errors?.['required']">
+                    User is required
+                </span>
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Other Email</label>
+                <input formControlName="email" type="text" class="form-control" id="exampleFormControlInput1"
+                    placeholder="Enter Value">
+
+                <span class="text-danger"
+                    *ngIf="(CommentFormControl.email.touched || submitted) && CommentFormControl.email.errors?.['required']">
+                    Email is required
+                </span>
+                <span class="text-danger"
+                    *ngIf="(CommentFormControl.email.touched || submitted) && CommentFormControl.email.errors?.['email']">
+                    Email address is invalid
+                </span>
+            </div>
+            <div class=" mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Comment</label>
+                <textarea formControlName="body" class="form-control" id="exampleFormControlTextarea1"
+                    rows="3"></textarea>
+                <span class="text-danger"
+                    *ngIf="(CommentFormControl.body.touched || submitted) && CommentFormControl.body.errors?.['required']">
+                    Content is required
+                </span>
+            </div>
+            <div class="mb-3">
+                <button (click)="CreateComment()" type="button" class="btn btn-primary">Create
+                    Post</button>
+            </div>
+
+
+        </form>
+
+    </div>
+
+
+
+</div>
+<!-- {{commentsList |json}} -->
+
+<div class="card mt-3" *ngFor="let item of commentsList">
+
+    <div class="card-body">
+        <p class="card-text">{{item.id}}</p>
+        <p class="card-text">Name : {{item.name}}</p>
+        <p class="card-text">Email : {{item.email}}</p>
+        <p class="card-text">Comment : {{item.body}}</p>
+
+    </div>
+</div>

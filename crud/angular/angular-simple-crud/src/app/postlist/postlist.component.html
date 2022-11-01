@@ -1,0 +1,32 @@
+<!-- {{UserList|json}} -->
+
+<div class="container">
+    <div class="row mt-4">
+        <div class="row mt-4">
+            <div class="col-12">
+                <button type="button" class="btn btn-primary" routerLink="/add-post">Create Post</button>
+            </div>
+        </div>
+
+
+        <!-- {{Std |json}} -->
+        <div class="col-md-6 my-3" *ngFor="let item of PostList">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">{{item.id}} . {{item.title}}</h5>
+                    <!-- <p class="card-text"></p> -->
+                    <!-- <p class="card-text">{{item.userId}}</p> -->
+                    <p class="card-text">{{item.body}}</p>
+                    <p class="card-text">author : {{item.username}}</p>
+
+                    <!-- <a [routerLink]="['/student-details/',item.id]" class="btn btn-primary">Got to Details {id}</a> -->
+                    <a [routerLink]="['/posts',item.id]" class="btn btn-primary"> Details
+                        {{item.id}}</a>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+</div>

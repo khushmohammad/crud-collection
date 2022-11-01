@@ -1,0 +1,20 @@
+<!-- {{postDetails | json}} -->
+<div class="container">
+    <div class="row mt-4">
+
+        <div class="col-12">
+            <h1>{{postDetails && postDetails.id}} . {{postDetails && postDetails.title}}</h1>
+            <!-- <p class="card-text">{{postDetails && postDetails.id}}</p> -->
+            <p class="card-text">{{postDetails && postDetails.body}}</p>
+
+            <!-- <h4>{{postDetails && postDetails.userId}}</h4> -->
+            <h5>Author : {{postDetails && postDetails.username}}</h5>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-12">
+                <app-postcommentlist></app-postcommentlist>
+            </div>
+        </div>
+    </div>
+</div>

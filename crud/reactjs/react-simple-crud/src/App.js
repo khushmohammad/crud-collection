@@ -1,9 +1,10 @@
-import logo from './logo.svg';
+
+import Routing from './route/Routing';
 
 function App() {
   return (
     <div className="App">
-    crud
+      <Routing />
     </div>
   );
 }

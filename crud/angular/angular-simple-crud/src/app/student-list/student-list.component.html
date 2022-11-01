@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="row mt-4">
+
+        <!-- {{Std |json}} -->
+        <div class="col-md-6 my-3" *ngFor="let item of Std">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">{{item.name}}</h5>
+                    <p class="card-text">{{item.email}}</p>
+                    <p class="card-text">{{item.phone}}</p>
+                    <!-- <a [routerLink]="['/student-details/',item.id]" class="btn btn-primary">Got to Details {id}</a> -->
+                    <a [routerLink]="['/student-details',item.id]" class="btn btn-primary"> Got to Details {{item.id}}</a>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+</div>
