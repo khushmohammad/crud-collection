@@ -1,6 +1,6 @@
 <pre>
 # crud collection
-crud oprations collection with using below list of tech and framworks 
+crud oprations collection with using below list of tech and framworks  on my skills
 
 reactjs   https://github.com/khushmohammad/crud-collection/tree/main/crud/reactjs/react-simple-crud
 angular  https://github.com/khushmohammad/crud-collection/tree/main/crud/angular/angular-simple-crud
@@ -13,7 +13,7 @@ codeigniter 3 and 4
 laravel
 dotNot
 reactnative
-
+ionic framwork
 
 
 using resources 
@@ -24,7 +24,6 @@ bootstrap
 gorestapi
 mongodb
 mongoose
-ionic framwork
 jwt
 react redux
 lodash
@@ -37,9 +36,11 @@ visual studio
 Jquery 
 Ajax
 
-extra activity
+development activity
 DSA
 Design Thinking
+user journey
+business requirements   - functional requirements  and non  functional requirements
 
 
 
