@@ -2,12 +2,12 @@
 # crud collection
 crud oprations collection with using below list of tech and framworks  on my skills
 
-reactjs   https://github.com/khushmohammad/crud-collection/tree/main/crud/reactjs/react-simple-crud
-angular  https://github.com/khushmohammad/crud-collection/tree/main/crud/angular/angular-simple-crud
-vuejs   https://github.com/khushmohammad/crud-collection/tree/main/crud/vue
+reactjs    https://github.com/khushmohammad/crud-collection/tree/main/crud/reactjs/react-simple-crud
+angular    https://github.com/khushmohammad/crud-collection/tree/main/crud/angular/angular-simple-crud
+vuejs      https://github.com/khushmohammad/crud-collection/tree/main/crud/vue
 nextjs
-nuxtjs
-nodejs   https://github.com/khushmohammad/crud-collection/tree/main/crud/nodejs/nodejs-curd-student
+nuxtjs     https://github.com/khushmohammad/crud-collection/tree/main/crud/nuxtjs-concept
+nodejs     https://github.com/khushmohammad/crud-collection/tree/main/crud/nodejs/nodejs-curd-student
 core php
 codeigniter 3 and 4
 laravel
